@@ -17,42 +17,45 @@ async def b(ctx, cmd: str= None):
             embed = discord.Embed(colour=discord.Color.from_rgb(255, 0, 0),
                                   description="""Here are the available builds. We will add other builds soon. To use the command, type, ```-b [character command]```""")
             embed.set_author(name="Build Commands", url="https://discordapp.com")
-            embed.add_field(name="🟪 Legendary Characters", value="""```akbm - Arkham Knight Batman
-bm   - Black Manta
-brnc - Brainiac
-bngg - Batman Ninja Gorilla Grodd
-ds   - Darkseid
-gaww - Golden Armor Wonder Woman
-jls  - Justice League Superman
-mmh  - Martian Manhunter
-sshq - Suicide Squad Harley Quinn 
-sse  - Suicide Squad Enchantress```""")
-            embed.add_field(name="⬜ Silver Characters", value="""```aww  - Amazon Wonder Woman
-svam - Silver Aquaman 
-svb  - Silver Bane
-svbm - Silver Batman
-svbc - Silver Black Canary
-svc  - Silver Cyborg
-svcw - Silver Catwoman 
-svdf - Silver Doctor Fate
-svds - Silver Deadshot
-svf  - Silver Flash
-svga - Silver Green Arrow
-svgg - Silver Gorilla Grodd
-svgl - Silver Green Lantern
-svhq - Silver Harley Quinn
-svj  - Silver Joker 
-svr  - Silver Robin
-svsc - Silver Scarecrow
-svsm - Silver Superman
-svst - Silver Swamp Thing
-svww - Silver Wonder Woman ```""")
-            embed.add_field(name="🟨 Gold Characters (Batman Ninjas)", value="""```bnbm - Batman Ninja Batman
-bncw - Batman Ninja Catwoman
-bnhq - Batman Ninja Harley Quinn
-bnlj - Batman Ninja Lord Joker
-bnr  - Batman Ninja Robin```""")
-            embed.add_field(name="🟨 Gold Characters (Multiverse Gang)", value="""```mvasg - Multiverse Armored Supergirl
+            embed.add_field(name="🟪 Legendary Characters", value="""```akbm  - Arkham Knight Batman
+bm    - Black Manta
+brnc  - Brainiac
+bngg  - Batman Ninja Gorilla Grodd
+ds    - Darkseid
+gaww  - Golden Armor Wonder Woman
+jls   - Justice League Superman
+mmh   - Martian Manhunter
+sshq  - Suicide Squad Harley Quinn 
+sse   - Suicide Squad Enchantress
+cowsm - Collector of Worlds Superman
+raven - Raven
+dts   - Deathstroke```""")
+            embed.add_field(name="⬜ Silver Characters", value="""```aww   - Amazon Wonder Woman
+svam  - Silver Aquaman 
+svb   - Silver Bane
+svbm  - Silver Batman
+svbc  - Silver Black Canary
+svc   - Silver Cyborg
+svcw  - Silver Catwoman 
+svdf  - Silver Doctor Fate
+svds  - Silver Deadshot
+svf   - Silver Flash
+svga  - Silver Green Arrow
+svgg  - Silver Gorilla Grodd
+svgl  - Silver Green Lantern
+svhq  - Silver Harley Quinn
+svj   - Silver Joker 
+svr   - Silver Robin
+svsc  - Silver Scarecrow
+svsm  - Silver Superman
+svst  - Silver Swamp Thing
+svww  - Silver Wonder Woman ```""")
+            embed.add_field(name="🟨 Gold Characters (Batman Ninjas)", value="""```bnbm  - Batman Ninja Batman
+bncw  - Batman Ninja Catwoman
+bnhq  - Batman Ninja Harley Quinn
+bnlj  - Batman Ninja Lord Joker
+bnr   - Batman Ninja Robin```""")
+            embed.add_field(name="🟨 Gold Characters (Multiverse Gang)", value="""```mvasg  - Multiverse Armored Supergirl
 mvbl  - Multiverse Black Lightning
 mvbw  - Multiverse Bat Woman
 mvcc  - Multiverse Captain Cold
@@ -60,14 +63,14 @@ mvf   - Multiverse The Flash
 mvga  - Multiverse Green Arrow 
 mvsg  - Multiverse Supergirl
 mvwc  - Multiverse White Canary```""")
-            embed.add_field(name="🟨 Gold Characters (The Justice League)", value="""```jla - Justice League Aquaman
-jlc - Justice League Cyborg
-jlf - Justice League Flash
-jlb - Justice League Batman
-mww - Mythic Wonder woman```""")
-            embed.add_field(name="🟨 Gold Characters (League of Anarchy)", value="""```epi  - Entangling Poison Ivy
-hbhq - Heart Breaker Harley Quinn
-llj  - Last Laugh Joker ```""")
+            embed.add_field(name="🟨 Gold Characters (The Justice League)", value="""```jla   - Justice League Aquaman
+jlc   - Justice League Cyborg
+jlf   - Justice League Flash
+jlb   - Justice League Batman
+mww   - Mythic Wonder woman```""")
+            embed.add_field(name="🟨 Gold Characters (League of Anarchy)", value="""```epi   - Entangling Poison Ivy
+hbhq  - Heart Breaker Harley Quinn
+llj   - Last Laugh Joker ```""")
 
             embed.add_field(name='🟨 Gold Characters (Others Part 1)', value="""```aaam  - Atlantean Armored Aquaman
 aga   - Ace Green Arrow
@@ -111,12 +114,13 @@ szm   - Shazam
 tkgg  - TeleKinetic Gorilla Grodd 
 ubc   - Unbreakable Cyborg
 uhq   - Unhinged Harley Quinn
+vxn   - Vixen
 wqww  - Warrior Queen Wonder Woman```
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
             embed.set_image(url= " ")
             await ctx.send(embed=embed)
 
@@ -140,7 +144,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Amazon Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/4/4d/Amazon_Wonder_Woman.jpg/revision/latest?cb=20200614025010")
@@ -175,7 +179,7 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Sonic/ Silver Black Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/3/34/0b6c3ee7709bfe9f59260f29578138b6.jpg/revision/latest?cb=20190610155012")
@@ -199,7 +203,7 @@ CAC resist   0```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/d/d0/Injustice2Catwoman.jpg/revision/latest?cb=20180606212527")
@@ -223,7 +227,7 @@ CAC resist   0```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/6/61/Aquaman_-_King_of_the_Sea.jpg/revision/latest?cb=20170531000930")
@@ -247,7 +251,7 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/4/47/Injustice2Cyborg.jpg/revision/latest?cb=20180606212706")
@@ -271,7 +275,7 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/5/58/Injustice2-THE-FLASH-wallpaper-MOBILE-80.jpg/revision/latest?cb=20170918193840")
@@ -295,7 +299,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9a/The_Joker_%28Max_Gear%29.jpg/revision/latest?cb=20201122082724")
@@ -320,7 +324,7 @@ CAC resist   0```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/b/b5/Injustice2HarleyQuinn.jpg/revision/latest?cb=20180606210827")
@@ -345,7 +349,7 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Swamp Thing", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/7/70/Injustice2-SWAMP-THING-wallpaper-MOBILE-792259.jpg/revision/latest?cb=20171019204351")
@@ -369,7 +373,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/f/fd/Injustice2-GRODD-wallpaper-MOBILE-64.jpg/revision/latest?cb=20170918191320")
@@ -393,7 +397,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Bane", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/c/c7/Injustice2Bane.jpg/revision/latest?cb=20180606212351")
@@ -417,7 +421,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/f/fc/Injustice2Deadshot.jpg/revision/latest?cb=20180606215049")
@@ -441,7 +445,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Scarecrow", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/c/c4/Injustice2Scarecrow.jpg/revision/latest?cb=20180606225842")
@@ -465,7 +469,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/3/30/Injustice2-ROBIN-wallpaper-MOBILE-73.jpg/revision/latest?cb=20170918193208")
@@ -490,7 +494,7 @@ BE           49```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Doctor Fate", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/2/2c/Injustice2-DR-FATE-wallpaper-MOBILE-60.jpg/revision/latest?cb=20171019193157")
@@ -514,7 +518,7 @@ CAC resist   0```""")
     
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/9/9f/Injustice2GreenArrow.jpg/revision/latest?cb=20180606225813")
@@ -538,7 +542,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/1/1a/Injustice2WonderWoman.jpg/revision/latest?cb=20180606225930")
@@ -562,7 +566,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/1/12/Injustice2Superman.jpg/revision/latest?cb=20180606225901")
@@ -586,7 +590,7 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/a/af/Green_lantern_injustice_2_render_by_yukizm-db1q6kb.png/revision/latest?cb=20170516214204")
@@ -610,7 +614,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/c/c4/Injustice2-BATMAN-wallpaper-MOBILE-49546165.jpg/revision/latest?cb=20171027231117")
@@ -649,7 +653,7 @@ BE           49```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Arkham Knight Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/60/A500bc2231663fcea8e4ba20b32b0580.jpg/revision/latest?cb=20181203181319")
@@ -673,7 +677,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Black Manta", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/3/34/Injustice2-BLACKMANTA-wallpaper-mobile-854564.jpg/revision/latest?cb=20171019190855")
@@ -700,7 +704,7 @@ Suggested artifact: NTH Armor.```
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Brainiac", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/0a/BrainiacMaxed.png/revision/latest?cb=20200614031840")
@@ -724,7 +728,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ac38678-ed86-4930-9121-ef0181676c41/dde0l5x-211093e8-2e3b-4fa6-bc73-8ac7424261d0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNWFjMzg2NzgtZWQ4Ni00OTMwLTkxMjEtZWYwMTgxNjc2YzQxXC9kZGUwbDV4LTIxMTA5M2U4LTJlM2ItNGZhNi1iYzczLThhYzc0MjQyNjFkMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.N7KL9O08muzvIOKAmDmSFZTpR4nVhGnfN9Yt5KQhblQ")
@@ -753,7 +757,7 @@ LAC          15 (Base)```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Darkseid", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/2/27/Injustice2Darkseid.jpg/revision/latest?cb=20180606212616")
@@ -773,7 +777,7 @@ AP           96```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Justice League Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/a/a8/C8aed96ea3ed5fd706397e16b11efd00.jpg/revision/latest?cb=20190610172032")
@@ -797,7 +801,7 @@ CAC resist   40```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Suicide Squad Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/a/a2/SSHarley.png/revision/latest?cb=20200614030224")
@@ -835,7 +839,7 @@ CAC resist   20```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Suicide Squad Enchantress", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/b/bb/Enchantress.jpg/revision/latest?cb=20200614015132")
@@ -862,11 +866,12 @@ If not used there, have JLSM on the team to gain max def and replace all MM def 
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Martian Manhunter", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9d/Martian_Manhunter.jpg/revision/latest?cb=20201120214050")
             await ctx.send(embed=embed)
+
         if cmd == 'gaww':
             embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
@@ -885,11 +890,100 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Golden Armor Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://pbs.twimg.com/profile_images/1338912314700001280/ZruEtT9B_400x400.jpg")
             await ctx.send(embed=embed)
+
+        if cmd == 'cowsm':
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       7179
+Health       45764 
+Defense      46 
+CAD          300 
+CAC          75
+LAC          1
+FAC          1
+BE           25
+Stun resist  35
+DOT resist   35
+CAC resist   35```""")
+            embed.add_field(name="⚙ TALENTS", value="""```1 DEF, 2 CAC, 3 CAD```""")
+            embed.add_field(name="⚙ GEARS", value="""```11 ATTACK, 2 CAC, 2 CAD```""")
+            embed.add_field(name="💎 FACTS", value="""```Legendary Collector of Worlds Superman should not be underestimated. He is a merciless fighter who has no shame in taking advantage of his own teammates!```
+            
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
+            embed.set_footer(
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+
+            embed.set_author(name="👑 Collector of Worlds Superman", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://i1.wp.com/www.supermanhomepage.com/clickandbuilds/SupermanHomepage/wp-content/uploads/2020/12/Injustice2-RiseOfKrypton-1.jpg?fit=926%2C1200&ssl=1")
+            await ctx.send(embed=embed)    
+
+        if cmd == 'raven':
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       6700
+Health       26800 
+Defense      39 
+CAD          300 
+CAC          75
+LAC          10
+FAC          69
+Stun resist  0
+DOT resist   0
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```4 CAC, 2 CAD```""")
+            embed.add_field(name="⚙ GEARS", value="""```9 ATTACK, 4 FAC, 2 CAD```""")
+            embed.add_field(name="💎 FACTS", value="""```Daughter of Trigon. Suggested Artifact: Beta club, TAB. You can use her in P3 and P4 during raids. Since her speciality is power steal, she can be used as a solo damage dealer in the battles. In P3, suggested to use her along with JSGL or Enchantress to remove the ground hazards. In P4, better to use Beta club to slow down the power generation.```""")
+            embed.add_field(name="⚡ [Non Crit Build (P2) - G70]\n⚙ STATS", value="""```Attack       7300
+Health       26800
+Defense      73 
+CAD          150
+CAC          22
+FAC          69 
+AP           96
+Stun resist  0 
+DOT resist   0 
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 ATTACK```""")
+            embed.add_field(name="⚙ GEARS", value="""```9 ATTACK, 4 FAC, 2 DEF```""")
+            embed.add_field(name="💎 FACTS", value="""```Suggested Artifacts: Beta Club, Sword of Salvation or Claw of Horus.```
+            
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
+            embed.set_footer(
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+
+            embed.set_author(name="👑 Raven", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/b/bb/Raven_Render.png/revision/latest/scale-to-width-down/310?cb=20130318184222")
+            await ctx.send(embed=embed) 
+
+        if cmd == 'dts':
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       ???
+Health       ??? 
+Defense      ???
+CAD          ??? 
+CAC          ???
+LAC          ???
+FAC          ???
+Stun resist  0
+DOT resist   0
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```???```""")
+            embed.add_field(name="⚙ GEARS", value="""```???```""")
+            embed.add_field(name="💎 FACTS", value="""```Deathstroke a.k.a Slade Wilson is a mercenary and assassin for hire who doesn't let anyone get in his way of finishing the job.```
+            
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
+            embed.set_footer(
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+
+            embed.set_author(name="👑 Deathstroke", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://pbs.twimg.com/media/E8rjrVsXIAEdZVy?format=jpg&name=4096x4096")
+            await ctx.send(embed=embed)       
 
         #Gold Batman Ninjas
         if cmd == 'bnbm':
@@ -911,7 +1005,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9e/BNBM.jpg/revision/latest?cb=20200613054520")
@@ -934,14 +1028,15 @@ CAC resist   70```""")
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/736x/29/65/9d/29659d8a9e25814d71597e3315b225d0.jpg")
             await ctx.send(embed=embed)
+
         if cmd == 'bncw':
             embed = discord.Embed(colour=discord.Colour(0xf1c40f),
-                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+                                  description="""⚡ **[Duo Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4476
 Health       25252
 Defense      29
@@ -954,11 +1049,24 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 CAC, 3 CAD, 1 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```1 CAC, 2 CAD, 3 LAC, 4 FAC, 5 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```
+            embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```""")
+            embed.add_field(name="⚡ [Solo Damage Dealer Build - G70]\n⚙ STATS", value="""```Attack       6000
+Health       25250
+Defense      29 
+CAD          300 
+CAC          75 
+LAC          13
+FAC          75
+Stun resist  0
+DOT resist   0 
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 2 CAC, 1 LAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
+            embed.add_field(name="💎 FACTS", value="""```Suggested Artifact: Beta Club, Claw of Horus.```
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/1/14/7cf976bda697f8dab020ebfd0624ba34.jpg/revision/latest?cb=20190610164254")
@@ -982,7 +1090,7 @@ CAC resist   10 ```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/4/4a/BMNR.jpg/revision/latest?cb=20200613051247")
@@ -1020,7 +1128,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Batman Ninja Lord Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/c/c0/A4524a7097285ae487d030ba09a9c2e6.jpg/revision/latest?cb=20190610172255")
@@ -1065,7 +1173,7 @@ MVBW when teamed with these 2 teammates is when she's at her most dangerous! She
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Batwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/d/d2/Batwoman_MOB.png/revision/latest?cb=20190116032647")
@@ -1102,7 +1210,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/3/3e/DPqIqKHUQAYTcXj.jpg/revision/latest?cb=20181203155138")
@@ -1139,7 +1247,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Black Lightning", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/4/43/MVBL.png/revision/latest?cb=20200614032611")
@@ -1176,7 +1284,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/00/40c0b1f61df1b3708f69477fec651679.jpg/revision/latest?cb=20190610171447")
@@ -1213,7 +1321,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse White Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/5/52/MVWC.png/revision/latest?cb=20200614024737")
@@ -1249,7 +1357,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Captain Cold", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/e/e1/936b2b72df18f7c3f3c06d590236ed94.jpg/revision/latest?cb=20190610164148")
@@ -1285,7 +1393,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/5/56/Eyn2l8q2ioo11.jpg/revision/latest?cb=20190610171858")
@@ -1309,7 +1417,7 @@ CAC resist   15```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Multiverse Armored Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/originals/6e/38/dd/6e38dd4819dbdcd1baf109ce0cc2199f.jpg")
@@ -1349,7 +1457,7 @@ BE           49```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Justice League Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="https://cdnb.artstation.com/p/assets/images/images/011/499/867/large/rob-hinrichsen-cy-jl-glamourshot.jpg?1529913086")
@@ -1373,7 +1481,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Justice League Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/2/28/Ce3ada9874e05c01d1211d17cca313b3.jpg/revision/latest?cb=20190610163529")
@@ -1408,7 +1516,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Justice League Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/7/74/Justice_League_Aquaman.png/revision/latest?cb=20200613022703")
@@ -1432,7 +1540,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Justice League Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/0c/69553a2d59fa1ede83a090ca0d863960.jpg/revision/latest?cb=20190610162450")
@@ -1460,7 +1568,7 @@ MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic at
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Mythic Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/2/2e/Mythic_Wonder_Woman.jpg/revision/latest?cb=20200614025026")
@@ -1486,7 +1594,7 @@ CAC resist   70```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Entangling Poison Ivy", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9b/C919496c3adb4038b4b4b6a606a7e9d2.jpg/revision/latest?cb=20190519152923")
@@ -1509,7 +1617,7 @@ CAC resist   10```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Heart Breaker Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/8/81/Maxresdefault_%281%29.jpg/revision/latest?cb=20190611164954")
@@ -1545,7 +1653,7 @@ CAC resist   15```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Last Laugh Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/c/c7/Last_Laugh_The_Joker_60_Gear.jpg/revision/latest?cb=20190509165527")
@@ -1570,7 +1678,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Blue Beetle", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/d/d9/Injustice2-BLUE-BEETLE-wallpaper-MOBILE-525416.jpg/revision/latest?cb=20171019191333")
@@ -1595,7 +1703,7 @@ BE           49 ```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Armored Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/08/299cabb1b42743ad744177cd9ba7bb00.jpg/revision/latest?cb=20190610155534")
@@ -1631,7 +1739,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 King of Atlantis Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/d/dd/KOAAM.jpg/revision/latest?cb=20200613222929")
@@ -1654,7 +1762,7 @@ CAC resist   10```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Silver Banshee", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/e/e4/0c91d8e9d1c35d30b737b051203e9dad.jpg/revision/latest?cb=20190610160400")
@@ -1678,7 +1786,7 @@ CAC resist   70 ```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Shazam", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/736x/c8/be/70/c8be70055a0854191787e592627fc087.jpg")
@@ -1701,7 +1809,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Atlantean Armor Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/1/15/DoDmTmLV4AEjaXg.jpg/revision/latest?cb=20190610154346")
@@ -1724,7 +1832,7 @@ CAC resist   68```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Emerald Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/b/bd/Emerald_GL.png/revision/latest?cb=20200625174648")
@@ -1748,7 +1856,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Master Thief Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/6d/MTCW.jpg/revision/latest?cb=20200625140203")
@@ -1772,7 +1880,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Blade Master Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/c/ca/4e8737b1a3b4764d91a3377bb66aa183.jpg/revision/latest?cb=20190610160134")
@@ -1795,7 +1903,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Atrocitus", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/5/59/Injustice2-ATROCITUS-wallpaper-MOBILE-47.jpg/revision/latest?cb=20170918181849")
@@ -1842,7 +1950,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Black Adam", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/4/49/Injustice2BlackAdam.jpg/revision/latest?cb=20180606212447")
@@ -1865,7 +1973,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Classic Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/f/f9/ClassicSuperman.jpg/revision/latest?cb=20200622233431")
@@ -1888,7 +1996,7 @@ CAC resist   40```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Dark Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9a/9baa09045a8a2cbfc2f5d2b3dd491946.jpg/revision/latest?cb=20190611165254")
@@ -1911,7 +2019,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Energized Starfire", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/7/7c/Energized_Starfire_60_Gear.png/revision/latest?cb=20190509162955")
@@ -1935,7 +2043,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Flora Poison Ivy", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/6c/F99e863c611e1c37d460f7e41af769c6.jpg/revision/latest?cb=20190507140339")
@@ -1958,7 +2066,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Hell Boy", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/7/72/Injustice2-HELLBOY-wallpaper-mobile-97.jpg/revision/latest?cb=20171031002300")
@@ -1981,7 +2089,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Horrific Scarecrow", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/7/7a/0af440f88c02441053d2cf6087a27660.jpg/revision/latest?cb=20190610170756")
@@ -2004,7 +2112,7 @@ CAC resist   20```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 John Stewart Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/d/de/Injustice2GreenLanternJohnStewart.jpg/revision/latest?cb=20180606225831")
@@ -2027,7 +2135,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Knightmare Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/6d/Ad60ee4a29326392da744a245ea70e8c.jpg/revision/latest?cb=20190610162955")
@@ -2050,7 +2158,7 @@ CAC resist   60```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Power Girl", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/8/88/Injustice2-POWER-GIRL-wallpaper-MOBILE-70.jpg/revision/latest?cb=20170916182626")
@@ -2073,7 +2181,7 @@ CAC resist   0```""")
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Predator Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/736x/17/fe/a9/17fea90bc3e526263cd928bab577e50a.jpg")
@@ -2096,7 +2204,7 @@ CAC resist   40```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Red Hood", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/originals/bf/fd/a2/bffda22e9b7c8a6ff38cd4e09e0c43b5.png")
@@ -2119,7 +2227,7 @@ CAC resist   60```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Reverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/5/5c/ReverseFlash.jpg/revision/latest?cb=20200625134157")
@@ -2142,7 +2250,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Speed Force The Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/originals/f4/a4/2a/f4a42a45746dda5cd48f757022957d53.jpg")
@@ -2165,7 +2273,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Telekinetic Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/8/8a/837dbeb890056d15220a5a88f8313935.jpg/revision/latest?cb=20190610171200")
@@ -2189,7 +2297,7 @@ CAC resist   20```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Warrior Queen Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/736x/3b/4b/18/3b4b181292a14fd2dd334412f3f7f16e.jpg")
@@ -2223,7 +2331,7 @@ CAC resist    60```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Raiden", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/736x/d3/20/d8/d320d844b1a37b0cb854798a5e146b35.jpg")
@@ -2246,7 +2354,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Sub Zero", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/4/41/Sub-Zero_%28Injustice_2%29.png/revision/latest?cb=20190121133210")
@@ -2270,7 +2378,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Suicide Squad Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/3/35/Marksman_Deadshot_60_Gear.jpg/revision/latest?cb=20190509165558")
@@ -2294,7 +2402,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Grid", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/4/40/Injustice2-GRID-wallpaper-MOBILE-63.jpg/revision/latest?cb=20170916182048")
@@ -2318,7 +2426,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Classic Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/f/f7/ClassicBatman.jpg/revision/latest?cb=20200614012246")
@@ -2342,7 +2450,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Enraged Bane", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/d/df/EnragedBaneMaxed.png/revision/latest?cb=20200613234617")
@@ -2367,7 +2475,7 @@ BE           49```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Nightwing", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/0b/Nightwing_60_Gear.jpg/revision/latest?cb=20190509141921")
@@ -2391,7 +2499,7 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Powered Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="https://i.pinimg.com/originals/56/bd/1e/56bd1e80ed63105bf84cfd57d98d336e.jpg")
@@ -2415,7 +2523,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Cheetah", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/d/d9/37651a51b9188a29f14f55c051c06366.png/revision/latest?cb=20190503160159")
@@ -2439,7 +2547,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Soul Stealer Doctor Fate", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/e/e4/0faa6e0b8ebb455bd89b9ec2c2dd622f.jpg/revision/latest?cb=20190610160946")
@@ -2463,7 +2571,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Primal Swamp Thing", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/0d/Primal_Swamp_Thing_60_Gear.jpg/revision/latest?cb=20190509165737")
@@ -2501,7 +2609,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Captain Cold", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/7/70/Injustice2-CAPTAIN-COLD-wallpaper-MOBILE-541651.jpg/revision/latest?cb=20171019191648")
@@ -2525,7 +2633,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Unbreakable Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/b/b2/A7f3ab39e668d4ab50207e3ddafc23dd.jpg/revision/latest?cb=20190610165444")
@@ -2549,7 +2657,7 @@ CAC resist   70```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Firestorm", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/0/01/Injustice2-FIRESTORM-wallpaper-MOBILE-611639.jpg/revision/latest?cb=20171019195320")
@@ -2573,11 +2681,12 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Unhinged Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/f/f2/V8thnRG.jpg/revision/latest?cb=20190610164707")
             await ctx.send(embed=embed)
+
         if cmd == 'aga':
             embed = discord.Embed(colour=discord.Colour(0xf1c40f),
                                   description="""⚡**[Damage Dealer Build - G70]**""")
@@ -2595,11 +2704,39 @@ CAC resist   0```""")
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
-                text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
             embed.set_author(name="👑 Ace Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/67/Ace_Green_Arrow_60_Gear.jpg/revision/latest?cb=20190509163245")
             await ctx.send(embed=embed)
+
+        if cmd == 'vxn':
+            embed = discord.Embed(colour=discord.Colour(0xf1c40f),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       5217
+Health       26068
+Defense      70
+CAD          270
+CAC          75
+FAC          75
+LAC          0
+Stun resist  0
+DOT resist   0
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```3 CAD, 4 FAC, 8 ATTACK```""")
+            embed.add_field(name="💎 FACTS", value="""```Vixen has lvl 7 passives. If possible, promote her to 7⭐ to upgrade her damage boosting Passive 1 to max level. The total difference b/w lvl 6 & lvl 7 passive is 20% @ 4 debuffs!
+
+There is also no compulsion to G70 Vixen. Even after she dies, her damage boost per debuff passive stays active. But having FAC will help in building combos with her as she reduces opponent defense with swipe front. You can go for a tank build too.```
+            
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
+
+            embed.set_footer(
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+
+            embed.set_author(name="👑 Vixen", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/7/7a/Injustice2-VIXEN-wallpaper-mobile-87.jpg/revision/latest/top-crop/width/720/height/900?cb=20170916182812")
+            await ctx.send(embed=embed)    
 
 keep_alive()  
 
