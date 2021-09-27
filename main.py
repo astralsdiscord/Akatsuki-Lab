@@ -14,7 +14,7 @@ async def on_ready():
 @bot.command(name='b', aliases=['build'])
 async def b(ctx, cmd: str= None):
         if cmd is None:
-            embed = discord.Embed(colour=discord.Colour(0xe74c3c),
+            embed = discord.Embed(colour=discord.Color.from_rgb(255, 0, 0),
                                   description="""Here are the available builds. We will add other builds soon. To use the command, type, ```-b [character command]```""")
             embed.set_author(name="Build Commands", url="https://discordapp.com")
             embed.add_field(name="🟪 Legendary Characters", value="""```akbm - Arkham Knight Batman
@@ -113,7 +113,7 @@ ubc   - Unbreakable Cyborg
 uhq   - Unhinged Harley Quinn
 wqww  - Warrior Queen Wonder Woman```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -122,7 +122,7 @@ wqww  - Warrior Queen Wonder Woman```
 
         #Silvers
         if cmd == 'aww':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2465
 Health       49552 
@@ -138,7 +138,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```13 HEALTH, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```She gives 5% health to all female heroes in your roster```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -146,7 +146,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/4/4d/Amazon_Wonder_Woman.jpg/revision/latest?cb=20200614025010")
             await ctx.send(embed=embed)
         if cmd == 'svbc' or cmd == 'sbc':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3888
 Health       23285
@@ -173,7 +173,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 4 ATTACK, 3 FAC, 1 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Pair her with Silver Green Arrow for max FAC and silver bane for max CAC. It is necessary to have fast attack chance on her since she deals 150% fast attack damage.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -181,7 +181,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/3/34/0b6c3ee7709bfe9f59260f29578138b6.jpg/revision/latest?cb=20190610155012")
             await ctx.send(embed=embed)
         if cmd == 'svcw':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3544
 Health       23500
@@ -197,7 +197,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 5 ATTACK, 4 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Her special 1 is DOT. You can also build her as a combo builder since she has great basics. Never use her down swipe attack!```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -205,7 +205,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/d/d0/Injustice2Catwoman.jpg/revision/latest?cb=20180606212527")
             await ctx.send(embed=embed)
         if cmd == 'svam':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6222
 Health       18186
@@ -221,7 +221,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```2 CAD, 1 CAC, 12 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer for raids. He has a strong special 3 and can do good damage. You can have 3 defense effects in gears if you want. His passive gives 30% stun resist for team per might teammate and 20% team defense per metahuman teammate; thus when you use him with 2 might opponents the whole team will have max stun resist and when used with 2 metahuman teammates the whole team will have 40% defense.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -229,7 +229,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/6/61/Aquaman_-_King_of_the_Sea.jpg/revision/latest?cb=20170531000930")
             await ctx.send(embed=embed)
         if cmd == 'svc':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2129
 Health       40089
@@ -245,7 +245,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 4 FAC, 9 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Silver cyborg is one of the best tanks in the game. His passive allows him to heal slowly after tagging out and to maximize his healing we have him as a tank. Use the metahuman artifact on him to improve his healing further. We have fast attack chance on him since he has good basics. You can also build him as a full tank.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -253,7 +253,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/4/47/Injustice2Cyborg.jpg/revision/latest?cb=20180606212706")
             await ctx.send(embed=embed)
         if cmd == 'svf':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3534
 Health       35785
@@ -269,7 +269,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 1 FAC, 4 ATTACk, 8 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Silver flash gives 20% fast attack chance to himself and his teammates. He also gains fast attack chance on tag in so we don't need to have extra effects in gears.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -277,7 +277,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/5/58/Injustice2-THE-FLASH-wallpaper-MOBILE-80.jpg/revision/latest?cb=20170918193840")
             await ctx.send(embed=embed)
         if cmd == 'svj':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4331
 Health       23882
@@ -292,7 +292,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 6 ATTACK, 3 HEALTH```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -302,7 +302,7 @@ CAC resist   0```""")
             await ctx.send(embed=embed)
 
         if cmd == 'svhq':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3344 (173 from her passive)
 Health       16787
@@ -318,7 +318,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 4 ATTACK, 4 FAC, 1 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```She gives 10% attack to herself and teammates. She also deals 100% damage on swipe attacks so we have fast attack chance to take advantage of it.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -327,7 +327,7 @@ CAC resist   0```""")
             await ctx.send(embed=embed)
 
         if cmd == 'svst':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Mix Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3543
 Health       37777
@@ -343,7 +343,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```1 DEF, 7 ATTACK, 7 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Swamp Thing healing is based on how much attack he has. Use him with all blades or metahuman artifact to improve his healing.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -351,7 +351,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/7/70/Injustice2-SWAMP-THING-wallpaper-MOBILE-792259.jpg/revision/latest?cb=20171019204351")
             await ctx.send(embed=embed)
         if cmd == 'svgg':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       1937
 Health       52589
@@ -366,7 +366,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```1 DEF, 14 HEALTH```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -375,7 +375,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/f/fd/Injustice2-GRODD-wallpaper-MOBILE-64.jpg/revision/latest?cb=20170918191320")
             await ctx.send(embed=embed)
         if cmd == 'svb':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2402
 Health       40673
@@ -390,7 +390,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -399,7 +399,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/c/c7/Injustice2Bane.jpg/revision/latest?cb=20180606212351")
             await ctx.send(embed=embed)
         if cmd == 'svds':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4198
 Health       19940
@@ -414,7 +414,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 1 CAC, 2 CAD, 7 ATTACK, 2 HEALTH```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -423,7 +423,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/f/fc/Injustice2Deadshot.jpg/revision/latest?cb=20180606215049")
             await ctx.send(embed=embed)
         if cmd == 'svsc':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2359
 Health       46787
@@ -438,7 +438,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -447,7 +447,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/c/c4/Injustice2Scarecrow.jpg/revision/latest?cb=20180606225842")
             await ctx.send(embed=embed)
         if cmd == 'svr':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2724
 Health       42480
@@ -462,7 +462,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -471,7 +471,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/3/30/Injustice2-ROBIN-wallpaper-MOBILE-73.jpg/revision/latest?cb=20170918193208")
             await ctx.send(embed=embed)
         if cmd == 'svdf':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2551
 Health       41386
@@ -488,7 +488,7 @@ BE           49```""")
             embed.add_field(name="⚙ GEARS", value="""```4 FAC, 8 HEALTH, 3 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```One of the best support characters in the game, silver doctor fate is a good combo builder and support. We have 2 block effectiveness talents to reduce damage from armor-piercing specials of brainiac in phase 3.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -496,7 +496,7 @@ BE           49```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/2/2c/Injustice2-DR-FATE-wallpaper-MOBILE-60.jpg/revision/latest?cb=20171019193157")
             await ctx.send(embed=embed)
         if cmd == 'svga':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6901
 Health       18276
@@ -512,7 +512,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Use silver bane as a combo builder and to max his critical attack chance. You can also use black canary as she provides 25% CAC to green arrow. He has a high damage special 3.```
     
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -520,7 +520,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/9/9f/Injustice2GreenArrow.jpg/revision/latest?cb=20180606225813")
             await ctx.send(embed=embed)
         if cmd == 'svww':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2379
 Health       47286
@@ -535,7 +535,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -544,7 +544,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/1/1a/Injustice2WonderWoman.jpg/revision/latest?cb=20180606225930")
             await ctx.send(embed=embed)
         if cmd == 'svsm':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2275
 Health       49203
@@ -560,7 +560,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```10 HEALTH, 4 FAC, 1 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Superman has a 50% chance to ignore opponent basic attacks. Recommended artifacts: Nth Metal Armor, Kryptonian Regeneration Matrix, and Cosmic Staff.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -568,7 +568,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/1/12/Injustice2Superman.jpg/revision/latest?cb=20180606225901")
             await ctx.send(embed=embed)
         if cmd == 'svgl':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2659
 Health       45227
@@ -584,7 +584,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
             embed.add_field(name="💎 FACTS", value="""```Silver lantern is a good combo builder and tank as his passive gives a shield of 25%; hence, the more health he has the more his shield can withstand.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -592,7 +592,7 @@ CAC resist   70```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/a/af/Green_lantern_injustice_2_render_by_yukizm-db1q6kb.png/revision/latest?cb=20170516214204")
             await ctx.send(embed=embed)
         if cmd == 'svbm':
-            embed = discord.Embed(colour=discord.Colour(0x95a5a6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(192, 192, 192),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6095
 Health       17284
@@ -608,7 +608,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Batman has the highest special 3 damage in the game. He's an excellent damage dealer. You can also drop the CAD and add one more attack when you use MVF as a combo builder. The best team for him in raids would be Justice League Superman and another batman (AKBM or JLBM preferably).```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -618,7 +618,7 @@ CAC resist   0```""")
 
         #Legendaries
         if cmd == 'akbm':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       7689
 Health       27652
@@ -647,7 +647,7 @@ BE           49```""")
             embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 3 ATTACK, 4 FAC```""")
             embed.add_field(name="💎 FACTS", value="""```Since AKBM passive gives max defense and a ton of health he can be easily built as a damage dealer. If you use him in raids the best team for him would be justice League Superman and Justice League Batman. He also gets 20% attack and 20% health from classic Batman.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -655,7 +655,7 @@ BE           49```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/6/60/A500bc2231663fcea8e4ba20b32b0580.jpg/revision/latest?cb=20181203181319")
             await ctx.send(embed=embed)
         if cmd == 'bm':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4564
 Health       26639
@@ -671,7 +671,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```4 ATTACK, 5 FAC, 2 CAC, 4 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```The best team for BM is Brainiac & Justice League Flash (this team does well vs GG and HSC). However, another great pip for BM is vs P4 (it’s loads of fun) and your team with him should be: Brainiac and AGA. With this pip, BM has TAB equipped and AGA tagging in and out to power drain/lock P4 Brainiac.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -679,7 +679,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/3/34/Injustice2-BLACKMANTA-wallpaper-mobile-854564.jpg/revision/latest?cb=20171019190855")
             await ctx.send(embed=embed)
         if cmd == 'brnc':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Tank/Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3523
 Health       60600
@@ -698,7 +698,7 @@ Side note: teamed with manta be sure to add 3 slots of lethal to brainiacs gear 
 Suggested teammates: Black Manta, DS, AKBM.
 Suggested artifact: NTH Armor.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -706,7 +706,7 @@ Suggested artifact: NTH Armor.```
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/0/0a/BrainiacMaxed.png/revision/latest?cb=20200614031840")
             await ctx.send(embed=embed)
         if cmd == 'bngg':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4673
 Health       33496
@@ -722,7 +722,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 2 LAC, 3 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```In the Batman Ninja Team, BNR can be used to not only build combo (tag-in combo too) but also blind his enemies; moreover, BNC can be used for obtaining health, lethal boost, and attack. BNGG's first special deals +150.05% damage to blinded opponents at level 70! Also, BNGGe can be one of the best combo builders outside of the BN team legendary team, or on a SHAZAM, KOA team because he can build up the power bar while building a combo because of his passive.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -730,7 +730,7 @@ CAC resist   0```""")
             embed.set_thumbnail(url="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ac38678-ed86-4930-9121-ef0181676c41/dde0l5x-211093e8-2e3b-4fa6-bc73-8ac7424261d0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNWFjMzg2NzgtZWQ4Ni00OTMwLTkxMjEtZWYwMTgxNjc2YzQxXC9kZGUwbDV4LTIxMTA5M2U4LTJlM2ItNGZhNi1iYzczLThhYzc0MjQyNjFkMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.N7KL9O08muzvIOKAmDmSFZTpR4nVhGnfN9Yt5KQhblQ")
             await ctx.send(embed=embed)
         if cmd == 'ds':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Tank Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3235
 Health       76854
@@ -751,7 +751,7 @@ LAC          15 (Base)```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -759,7 +759,7 @@ LAC          15 (Base)```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injusticegodsamongus/images/2/27/Injustice2Darkseid.jpg/revision/latest?cb=20180606212616")
             await ctx.send(embed=embed)
         if cmd == 'jls':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       5119
 Health       26500
@@ -770,7 +770,7 @@ AP           96```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 1 CAC, 1 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -779,7 +779,7 @@ AP           96```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/a/a8/C8aed96ea3ed5fd706397e16b11efd00.jpg/revision/latest?cb=20190610172032")
             await ctx.send(embed=embed)
         if cmd == 'sshq':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer/Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       5550
 Health       41990
@@ -795,7 +795,7 @@ CAC resist   40```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 7 ATTACK, 3 CAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```SSHQ can be very dangerous when teamed up with her other SS teammates. The Suicide Squad is mainly an arena team, but her passives that strip multiple percentages of opponents stats can allow you to decimate a team. Additionally, she does not need much CAC as her other passive when teamed with SSDS it gives her +50% CAC.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -803,7 +803,7 @@ CAC resist   40```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/a/a2/SSHarley.png/revision/latest?cb=20200614030224")
             await ctx.send(embed=embed)
         if cmd == 'sse':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6280
 Health       26074
@@ -833,7 +833,7 @@ CAC resist   20```""")
             embed.add_field(name="⚙ GEARS", value="""```10 ATTACK, 4 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```When SSE is paired with her team, The Suicide Squad, she can be a very dangerous character if built this way. Using her passives that heal her and her SP3 gives her an immortality "dome" which allows her to deal lots of damage safely if used correctly in battle.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -841,7 +841,7 @@ CAC resist   20```""")
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/b/bb/Enchantress.jpg/revision/latest?cb=20200614015132")
             await ctx.send(embed=embed)
         if cmd == 'mmh':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4733
 Health       21481
@@ -860,7 +860,7 @@ CAC resist   70```""")
 Works as Sb support in normal and solo raids. 
 If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -868,7 +868,7 @@ If not used there, have JLSM on the team to gain max def and replace all MM def 
             embed.set_thumbnail(url="https://static.wikia.nocookie.net/injustice-2-mobile2242/images/9/9d/Martian_Manhunter.jpg/revision/latest?cb=20201120214050")
             await ctx.send(embed=embed)
         if cmd == 'gaww':
-            embed = discord.Embed(colour=discord.Colour(0x9b59b6),
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6859
 Health       32486
@@ -883,7 +883,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```12 ATTACK, 3 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```Because of her 3rd passive, she does not need to have any FAC. If you use her in raids you will have a combo builder and if you use her in arena, you can hold block to gain combo meter hits.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -909,7 +909,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 3 CAD, 3 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Batman Ninja Batman gets full critical attack chance and armor Pierce on basics and specials when he's hit by crit or AP attack. So we don't have CAC on him since we are utilizing his passive. We also have fast attack chance for higher combos and utilize his ap passive. Block effectiveness is to reduce damage from AP attacks. He's not an ideal damage dealer for raids.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -932,7 +932,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```6 HEALTH, 4 FAC, 4 LAC, 1 DEF```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -956,7 +956,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```1 CAC, 2 CAD, 3 LAC, 4 FAC, 5 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -980,7 +980,7 @@ CAC resist   10 ```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 CAD, 3 FAC, 2 LAC```""")
             embed.add_field(name="💎 FACTS", value="""```BNR, or Batman Ninja Robin, is key to the ninja team. He gives various buffs to his teammates like a combo meter which starts at 7 hits, lethal attack damage per lethal hit, and 30% lac when the opponent is blinded and misses a basic attack on you. Robin's main damage comes from his 30% LAD every 14 seconds and it stacks; hence, it is essential to build him and his fellow teammates with LAC and FAC to take full advantage of his passives and deal massive damage in raids. This build serves as both a damage dealer and a combo builder for BNGG when he is built as a damage dealer.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1017,7 +1017,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```BNLJ is a great support character as well and can revive your teammates and himself twice when the opposite team has a Batman. Hence, he is very handy in any team, especially against Arkham Knight Batman. We have FAC since he has good basic attacks. You can replace them with health if you want.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1062,7 +1062,7 @@ Suggested Artifacts: The All-Blades or Claw of Horus
 
 MVBW when teamed with these 2 teammates is when she's at her most dangerous! She makes an excellent 2nd/alternate DD/Support to ASG.  A lot of players sleep on her potential. Don't be one of them. Give her a try she's dangerous and fun to use in the arenas, and raids with this build. MVF will add all the CAC, and CAD she needs, and ASG with her SP2, and SP3 not only adds to her defensive/offensive stats but they will also increase her special moves damage for each active MV buffer. Her other passives also are extremely helpful. A chance to keep your combo if broken by getting hit, a unique buffer slowing passive, and her SP1 gives you a chance at a free SP3. Very versatile! ```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1099,7 +1099,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can have defense in gears if you want. His passive maxes his critical attack chance and also gives 45% critical attack damage.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1137,7 +1137,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAD, 1 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. Pair with MVF for max critical attack chance and damage. He has a great special 2 and armor-piercing special 3. Defense effect on gear is just for maxing defense, you can switch it to attack if you want.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1173,7 +1173,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1211,7 +1211,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Mixed build for arena and champions arena. If u use her with akbm remove defense and some health and add CAC and CAD.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1247,7 +1247,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 6 ATTACK, 1 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1283,7 +1283,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```6 RES```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 7 HEALTH, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1307,7 +1307,7 @@ CAC resist   15```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```One of the great damage dealers in raids.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1346,7 +1346,7 @@ BE           49```""")
             embed.add_field(name="⚙ GEARS", value="""```9 ATTACK, 4 FAC, 2 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```JLC can do decent damage in phase 2 and can be a useful cleanup pip especially in tier 7/8 raids. To be used with claw of horus artifact. Suggested teams would be with JLF and DF/PG. You can also use silver or speedforce the flash for FAC and have extra attack in gears.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1370,7 +1370,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 2 CAC, 4 FAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```JLF is meant to be played alongside JLC and JLAM for maximum dmg. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF sp3. When power drain is needed, it is best to use JLC sp2. Equip The All Blades Artifact on both JLF and JLC.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1406,7 +1406,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```JLAM is meant to be used along with JLF and JLC to get maximum damage in raids. Equip The All Blades Artifact on both JLF and JLC.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1430,7 +1430,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```5 HEALTH, 4 ATTACK, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```When used with Justice League Superman as a combo builder, you can replace all attack effects with health. We have some attack so his basics can hit hard with cyborg or Superman. He also gets 20% attack and 20% health from classic Batman.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1458,7 +1458,7 @@ An all-purpose MWW build. A solid DD option for those who use JLF with LOA on GG
 
 MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic attack combo chain, power block, and armor-piercing on SP1 in comparison to JLA. This build is designed to take some hits for 3 minutes and survive tech class changes without losing too much health. The 60% DOT resist is use to make hp management from TAB DOT easier.```
 
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1484,7 +1484,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 2 CAC, 4 FAC, 3 HEALTH, 2 DEF, 1 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```EPI is the key to the LOA team as she provides DOT on basic attacks for herself and LOA teammates. When she dies the DOT will go away; hence, it is necessary to make sure she's built as a hybrid so she can heal and as well as survive the match. Her healing is based on how much damage she does; hence, it is ideal to have a critical attack chance and damage and fast attack chance to heal faster. Use all blades or claw of horus to boost her attack and healing. You can also use a metahuman or agility artifact on her.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1507,7 +1507,7 @@ CAC resist   10```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 4 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```Heartbreaker Harley Quinn (HBHQ) Is one of INJ2s top 10 damage dealing characters (DDs). All damage is done to stunned opponents. She is ideally teamed up w/AKBM, and EPI. Also she's always good as a support character on her original LOA team. Most effective vs GG, P1, P3. A must have for solo raids.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1542,7 +1542,7 @@ CAC resist   15```""")
             embed.add_field(name="⚙ GEARS", value="""```5 FAC, 4 CAD, 5 ATTACK, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```96% Armor-piercing LLJ build. Especially effective on GG in T7/T8 with EPI & JLF.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1568,7 +1568,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```2 HEALTH, 6 ATTACK, 4 FAC, 2 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```100% damage on basics for limited time after using either of his 3 specials. So we have him offensively built to take advantage of his passive. His sp3 gives 90% defense and hence we don't need to have defense in his gears or talents. Do not use his special 1.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1593,7 +1593,7 @@ BE           49 ```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Armored Superman has a chance to ignore the first special attack (1/2/3) of the opponent and provides 20% team defense which also applies to himself. He's a great tank and decent combo builder.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1628,7 +1628,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙ GEARS", value="""```11 ATTACK, 4 FAC```""")
             embed.add_field(name="💎 FACTS", value="""```Non-crit KOAAM is for Phase 2 and Captain Cold since P2 is immune to crit and CC is highly crit resistant. We have armor pierce talents to bypass defense and high attack to deal raw damage. The recommended team for phase 2 would be shazam and doctor fate. You can also use Nightwing or Atrocitus. For captain cold, use shazam and doctor fate.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1652,7 +1652,7 @@ CAC resist   10```""")
             embed.add_field(name="⚙ GEARS", value="""```12 ATTACK, 2 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```SB is perhaps the best damage dealer for DF Boss. It can be paired with PBM or RF. Begin the match with an sp2 to apply torment then proceed to disable DF with SB sp1, or PBM sp1, before building combo for SB sp3.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1676,7 +1676,7 @@ CAC resist   70 ```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Shazam is a great tank and combo builder. If you're not willing to have FAC on him then replace them with health. Recommended artifacts are the Nth Metal Armor, Kryptonian Regeneration Matrix, and Metahuman to boost healing for the entire team with his SP3.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1698,7 +1698,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 1 CAC, 4 CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1721,7 +1721,7 @@ CAC resist   68```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 1 AP, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```6 HEALTH, 4 DEF, 5 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1745,7 +1745,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 HEALTH, 3 DEF, 2 CAD, 1 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1769,7 +1769,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1792,7 +1792,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1840,7 +1840,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```For Fast Attack build, replace 4 FAC with ATTACK in gear talents. This will reduce attack value, but deals good damage even when using FA build.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -1862,7 +1862,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 AP, 1 DEF, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```3 DEF, 3 HEALTH, 3 ATTACK, 6 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1885,7 +1885,7 @@ CAC resist   40```""")
             embed.add_field(name="⚙TALENTS", value="""```2 RES, 2 DEF, 2 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1908,7 +1908,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 1 CAC, 2 AP```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 5 FAC, 2 CAC, 1 CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1932,7 +1932,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 1 CAD, 1 DEF, 1 LETHAL```""")
             embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1955,7 +1955,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 3 CAD, 1 CAC, 2 FAC, 1 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -1978,7 +1978,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 DEF, 4 CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2001,7 +2001,7 @@ CAC resist   20```""")
             embed.add_field(name="⚙TALENTS", value="""```2 CAD, 1 CAC, 1 AP, 1 DEF, 1 RES```""")
             embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 2 DEF, 3 CAD, 4 FAC, 2 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2024,7 +2024,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2047,7 +2047,7 @@ CAC resist   60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 2 CAC, 1 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 1 CAC, 3 CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2071,7 +2071,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙GEARS", value="""```14 ATTACK, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```Pair with MVF to get full CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
 
@@ -2093,7 +2093,7 @@ CAC resist   40```""")
             embed.add_field(name="⚙TALENTS", value="""```2 DEF, 2 RES, 1 CAC, 1 LAC```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2116,7 +2116,7 @@ CAC resist   60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 BE, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2139,7 +2139,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```4 CAC, 2 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 DEF, 3 CAD```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2162,7 +2162,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2186,7 +2186,7 @@ CAC resist   20```""")
             embed.add_field(name="⚙TALENTS", value="""```2 DEF, 1 RES, 1 CAD, 1 CAC, 1 LETHAL```""")
             embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 2 DEF, 4 FAC, 2 CAD, 2 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2220,7 +2220,7 @@ CAC resist    60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 8 HEALTH```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2243,7 +2243,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 DEF, 2 ATTACK, 1 FAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2267,7 +2267,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```2 CAC, 4 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 CAD, 1 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2291,7 +2291,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2315,7 +2315,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2339,7 +2339,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2364,7 +2364,7 @@ BE           49```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 BE```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 FAC, 3 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2388,7 +2388,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 2 HEALTH, 4 FAC, 3 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2412,7 +2412,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 5 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2436,7 +2436,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2460,7 +2460,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2498,7 +2498,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Apart from being a damage dealer, captain cold makes a great tank and combo builder. He gives his entire team 50% critical attack resistance and has a 100% chance to disable special 1/2 of the current opponent who's on the field. He serves as a good counter to might shield opponents since he can lock their shield. You can also have some attack slots in gear instead of health.```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2522,7 +2522,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2546,7 +2546,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 6 ATTACK, 2 DEF```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2570,7 +2570,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
@@ -2592,7 +2592,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```5 CAD, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```15 ATTACK```
             
-**__NOTE:__ **If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@&891954344184922133>**.""")
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
 
             embed.set_footer(
                 text=f"Requested by {ctx.message.author.name}", icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
