@@ -950,7 +950,19 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 ATTACK```""")
             embed.add_field(name="⚙ GEARS", value="""```9 ATTACK, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Suggested Artifacts: Beta Club, Sword of Salvation or Claw of Horus.```
+            embed.add_field(name="💎 FACTS", value="""```Suggested Artifacts: Beta Club, Sword of Salvation or Claw of Horus.```""")
+            embed.add_field(name="⚡ [Tank/Support Build - G70]\n⚙ STATS", value="""```Attack       4090
+Health       55800
+Defense      75 
+CAD          175
+CAC          34
+FAC          69 
+Stun resist  75 
+DOT resist   75 
+CAC resist   70```""")
+            embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```10 HEALTH, 4 FAC, 1 DEF```""")
+            embed.add_field(name="💎 FACTS", value="""```FAC is needed to steal power faster through fast hits after using sp1. Best artifact for this build is Betaclub. At the early start, it won’t be of any use but at the end it comes in handy to slow opponent’s power and steal whatever they have to avoid any incoming specials.```
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
@@ -962,20 +974,32 @@ __Note:__ If you wish to add your builds to this bot, have any ideas, suggestion
 
         if cmd == 'dts':
             embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
-                                  description="""⚡ **[Damage Dealer Build - G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack       ???
-Health       ??? 
-Defense      ???
-CAD          ??? 
-CAC          ???
-LAC          ???
-FAC          ???
-Stun resist  0
-DOT resist   0
+                                  description="""⚡ **[Ideal : Mixed Build - G60]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       3990
+Health       44254 
+Defense      75
+CAD          175 
+CAC          75
+FAC          75
+Stun resist  75
+DOT resist   75
+CAC resist   70```""")
+            embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 CAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```7 HEALTH, 5 FAC, 3 DEF```""")
+            embed.add_field(name="💎 FACTS", value="""```Deathstroke is mostly good for SP2 health reduction like KOAA’s SP3. So you can also build as you see fit.```""")
+            embed.add_field(name="⚡ [Damage Dealer Build - G70]\n⚙ STATS", value="""```Attack       6360
+Health       27754
+Defense      75 
+CAD          300
+CAC          66
+FAC          69 
+LAC          1
+Stun resist  0 
+DOT resist   0 
 CAC resist   0```""")
-            embed.add_field(name="⚙ TALENTS", value="""```???```""")
-            embed.add_field(name="⚙ GEARS", value="""```???```""")
-            embed.add_field(name="💎 FACTS", value="""```Deathstroke a.k.a Slade Wilson is a mercenary and assassin for hire who doesn't let anyone get in his way of finishing the job.```
+            embed.add_field(name="⚙ TALENTS", value="""```2 CAD, 1 CAC, 2 DEF, 1 AP```""")
+            embed.add_field(name="⚙ GEARS", value="""```2 CAD, 4 FAC, 1 DEF, 8 ATK```""")
+            embed.add_field(name="💎 FACTS", value="""```Deathstroke's maxed out SP1 gives enough AP to cross 90% with one epic AP talent. His SP3 gives CAC, so 66% is enough.```
             
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
