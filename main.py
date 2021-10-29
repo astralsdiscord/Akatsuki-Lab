@@ -29,7 +29,8 @@ sshq  - Suicide Squad Harley Quinn
 sse   - Suicide Squad Enchantress
 cowsm - Collector of Worlds Superman
 raven - Raven
-dts   - Deathstroke```""")
+dts   - Deathstroke
+bwl   - Batman Who Laughs```""")
             embed.add_field(name="⬜ Silver Characters", value="""```aww   - Amazon Wonder Woman
 svam  - Silver Aquaman 
 svb   - Silver Bane
@@ -860,9 +861,7 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 1 FAC, 1 DEF, 10 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Recommended Artifact: Metahuman Artifact.
-Works as Sb support in normal and solo raids. 
-If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```
+            embed.add_field(name="💎 FACTS", value="""```Recommended Artifact: Metahuman Artifact. Works great as SB support in normal and solo raids. If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```
 
 __Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
             embed.set_footer(
@@ -1007,7 +1006,31 @@ __Note:__ If you wish to add your builds to this bot, have any ideas, suggestion
 
             embed.set_author(name="👑 Deathstroke", url="https://discordapp.com")
             embed.set_thumbnail(url="https://pbs.twimg.com/media/E8rjrVsXIAEdZVy?format=jpg&name=4096x4096")
-            await ctx.send(embed=embed)       
+            await ctx.send(embed=embed) 
+
+        if cmd == 'bwl':
+            embed = discord.Embed(colour=discord.Color.from_rgb(128, 0, 128),
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack       ???
+Health       ???
+Defense      75
+CAD          295
+CAC          75
+FAC          69  
+Stun resist  0
+DOT resist   10
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```1 CAC, 5 CAD```""")
+            embed.add_field(name="⚙ GEARS", value="""```1 CAC, 4 FAC, 8 ATK, 2 DEF```""")
+            embed.add_field(name="💎 FACTS", value="""```If your BWL doesn't die early, you can replace 2 DEF gear rolls with 2 ATK rolls, thus adding to total of 10 ATK gear rolls.```
+
+__Note:__ If you wish to add your builds to this bot, have any ideas, suggestions or faced a problem, DM **<@!677633670651314208>**.""")
+            embed.set_footer(
+                text=f"Requested by {ctx.message.author.name} at ♕ THE AKATSUKI ♕" , icon_url= "https://cdn.discordapp.com/attachments/840269159518306344/872822340193501184/oie_oie_overlay_4.gif")
+
+            embed.set_author(name="👑 Batman Who Laughs", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWTH6Po_sNdPxjlIJkjzZ3HC64Nacy586aQ&usqp=CAU")
+            await ctx.send(embed=embed)    
 
         #Gold Batman Ninjas
         if cmd == 'bnbm':
